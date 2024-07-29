@@ -1,6 +1,6 @@
 name: yes24_crawler
 	
-  on:
+  on: 
     schedule:
       - cron: '0 0 * * *'
 	
