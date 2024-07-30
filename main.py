@@ -1,4 +1,7 @@
 import os
+
+print("MY_GITHUB_TOKEN:", os.environ.get('MY_GITHUB_TOKEN'))
+
 from datetime import datetime
 from pytz import timezone
 from crawling_yes24 import parsing_beautifulsoup, extract_book_data
